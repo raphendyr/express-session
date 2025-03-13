@@ -3,6 +3,8 @@ extends:
   - plugin:markdown/recommended
 plugins:
   - markdown
+env:
+  es2022: true  # for Node 18
 overrides:
   - files: '**/*.md'
     processor: 'markdown/markdown'
